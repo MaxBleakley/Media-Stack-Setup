@@ -19,20 +19,22 @@ The script installs and configures the following media-related services:
 ## 📁 Directory Structure
 
 The script creates:
-/media/
-  downloads/
-    completed/
-    intermediate/
-  tv/
-  movies/
-/docker-config/
-  docker-compose.yml
-  jellyfin/
-  jellyseer/
-  nzbget/
-  sonarr/
-  radarr/
-  
+```
+/
+├── docker-config/
+│ ├── docker-compose.yml
+│ ├── jellyfin/
+│ ├── jellyseerr/
+│ ├── nzbget/
+│ ├── sonarr/
+│ └── radarr/
+└── media/
+├── downloads/
+│ ├── completed/
+│ └── intermediate/
+├── tv/
+└── movies/
+```
 ## 🚀 Usage
 ```
 git clone https://github.com/maxBleakley/media-stack-setup.git
