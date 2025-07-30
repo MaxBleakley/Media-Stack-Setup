@@ -1,0 +1,10 @@
+*.log
+*.tmp
+*.bak
+*~
+.DS_Store
+/docker-config/
+.vscode/
+.idea/
+*.swp       # Vim swap files
+*.swo
